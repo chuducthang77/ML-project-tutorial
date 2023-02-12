@@ -1,0 +1,175 @@
+2023-02-11 20:20:02,896 INFO    StreamThr :51758 [internal.py:wandb_internal():87] W&B internal server running at pid: 51758, started at: 2023-02-11 20:20:02.895284
+2023-02-11 20:20:02,897 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: status
+2023-02-11 20:20:02,899 INFO    WriterThread:51758 [datastore.py:open_for_write():85] open: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/run-mtahdhf2.wandb
+2023-02-11 20:20:02,902 DEBUG   SenderThread:51758 [sender.py:send():336] send: header
+2023-02-11 20:20:02,919 DEBUG   SenderThread:51758 [sender.py:send():336] send: run
+2023-02-11 20:20:03,713 INFO    SenderThread:51758 [dir_watcher.py:__init__():216] watching files in: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files
+2023-02-11 20:20:03,714 INFO    SenderThread:51758 [sender.py:_start_run_threads():1067] run started: mtahdhf2 with start time 1676172002.895552
+2023-02-11 20:20:03,714 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: summary_record
+2023-02-11 20:20:03,714 INFO    SenderThread:51758 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-11 20:20:03,716 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: check_version
+2023-02-11 20:20:03,717 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: check_version
+2023-02-11 20:20:04,070 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: run_start
+2023-02-11 20:20:04,086 DEBUG   HandlerThread:51758 [system_info.py:__init__():31] System info init
+2023-02-11 20:20:04,086 DEBUG   HandlerThread:51758 [system_info.py:__init__():46] System info init done
+2023-02-11 20:20:04,086 INFO    HandlerThread:51758 [system_monitor.py:start():151] Starting system monitor
+2023-02-11 20:20:04,087 INFO    SystemMonitor:51758 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-11 20:20:04,087 INFO    HandlerThread:51758 [system_monitor.py:probe():172] Collecting system info
+2023-02-11 20:20:04,087 INFO    SystemMonitor:51758 [interfaces.py:start():168] Started cpu
+2023-02-11 20:20:04,088 DEBUG   HandlerThread:51758 [system_info.py:probe():195] Probing system
+2023-02-11 20:20:04,088 INFO    SystemMonitor:51758 [interfaces.py:start():168] Started disk
+2023-02-11 20:20:04,088 INFO    SystemMonitor:51758 [interfaces.py:start():168] Started memory
+2023-02-11 20:20:04,089 INFO    SystemMonitor:51758 [interfaces.py:start():168] Started network
+2023-02-11 20:20:04,094 DEBUG   HandlerThread:51758 [system_info.py:_probe_git():180] Probing git
+2023-02-11 20:20:04,113 DEBUG   HandlerThread:51758 [system_info.py:_probe_git():188] Probing git done
+2023-02-11 20:20:04,113 DEBUG   HandlerThread:51758 [system_info.py:probe():241] Probing system done
+2023-02-11 20:20:04,113 DEBUG   HandlerThread:51758 [system_monitor.py:probe():181] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.5', 'heartbeatAt': '2023-02-12T03:20:04.088360', 'startedAt': '2023-02-12T03:20:02.882022', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/thangchu/tutorial/main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/chuducthang77/tutorial.git', 'commit': 'a0881c94a4be94fab369d49c7f44b002951514f6'}, 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 233.46913528442383, 'used': 8.329620361328125}, 'memory': {'total': 8.0}}
+2023-02-11 20:20:04,113 INFO    HandlerThread:51758 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-11 20:20:04,113 INFO    HandlerThread:51758 [system_monitor.py:probe():185] Publishing system info
+2023-02-11 20:20:04,113 DEBUG   HandlerThread:51758 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-11 20:20:04,114 DEBUG   HandlerThread:51758 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-11 20:20:04,114 INFO    HandlerThread:51758 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-11 20:20:04,118 DEBUG   SenderThread:51758 [sender.py:send():336] send: files
+2023-02-11 20:20:04,119 INFO    SenderThread:51758 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-11 20:20:04,135 DEBUG   SenderThread:51758 [sender.py:send():336] send: telemetry
+2023-02-11 20:20:04,136 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-11 20:20:04,137 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: stop_status
+2023-02-11 20:20:04,723 INFO    Thread-13 :51758 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/wandb-metadata.json
+2023-02-11 20:20:04,723 INFO    Thread-13 :51758 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/requirements.txt
+2023-02-11 20:20:04,724 INFO    Thread-13 :51758 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/wandb-summary.json
+2023-02-11 20:20:05,295 INFO    wandb-upload_0:51758 [upload_job.py:push():138] Uploaded file /var/folders/w7/37p01tv14dsdkw5x92kswgy00000gn/T/tmp86ab1ralwandb/tlv8pnhk-wandb-metadata.json
+2023-02-11 20:20:05,724 INFO    Thread-13 :51758 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/output.log
+2023-02-11 20:20:07,735 INFO    Thread-13 :51758 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/output.log
+2023-02-11 20:20:08,307 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: status_report
+2023-02-11 20:20:12,968 DEBUG   SenderThread:51758 [sender.py:send():336] send: exit
+2023-02-11 20:20:12,969 INFO    SenderThread:51758 [sender.py:send_exit():559] handling exit code: 0
+2023-02-11 20:20:12,969 INFO    SenderThread:51758 [sender.py:send_exit():561] handling runtime: 8
+2023-02-11 20:20:12,970 INFO    SenderThread:51758 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-11 20:20:12,970 INFO    SenderThread:51758 [sender.py:send_exit():567] send defer
+2023-02-11 20:20:12,971 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:12,971 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-11 20:20:12,971 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:12,972 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-02-11 20:20:12,972 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 1
+2023-02-11 20:20:12,972 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:12,972 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-11 20:20:12,972 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:12,972 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-02-11 20:20:12,973 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 2
+2023-02-11 20:20:12,973 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:12,973 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-11 20:20:12,973 INFO    HandlerThread:51758 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-11 20:20:12,995 DEBUG   SystemMonitor:51758 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-11 20:20:12,997 DEBUG   SystemMonitor:51758 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-11 20:20:12,998 INFO    HandlerThread:51758 [interfaces.py:finish():175] Joined cpu
+2023-02-11 20:20:12,998 DEBUG   SystemMonitor:51758 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-11 20:20:12,999 INFO    HandlerThread:51758 [interfaces.py:finish():175] Joined disk
+2023-02-11 20:20:13,000 INFO    HandlerThread:51758 [interfaces.py:finish():175] Joined memory
+2023-02-11 20:20:13,000 INFO    HandlerThread:51758 [interfaces.py:finish():175] Joined network
+2023-02-11 20:20:13,001 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:13,001 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-02-11 20:20:13,001 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 3
+2023-02-11 20:20:13,001 DEBUG   SenderThread:51758 [sender.py:send():336] send: stats
+2023-02-11 20:20:13,001 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:13,001 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-11 20:20:13,002 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:13,002 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-02-11 20:20:13,002 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 4
+2023-02-11 20:20:13,002 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:13,002 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-11 20:20:13,002 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:13,002 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-02-11 20:20:13,002 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 5
+2023-02-11 20:20:13,002 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:13,002 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-11 20:20:13,003 DEBUG   SenderThread:51758 [sender.py:send():336] send: summary
+2023-02-11 20:20:13,003 INFO    SenderThread:51758 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-11 20:20:13,003 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:13,003 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-02-11 20:20:13,003 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 6
+2023-02-11 20:20:13,003 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:13,003 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-11 20:20:13,004 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:13,004 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-02-11 20:20:13,008 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: status_report
+2023-02-11 20:20:13,219 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 7
+2023-02-11 20:20:13,219 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:13,219 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 7
+2023-02-11 20:20:13,220 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:13,220 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-02-11 20:20:13,760 INFO    Thread-13 :51758 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/config.yaml
+2023-02-11 20:20:13,760 INFO    Thread-13 :51758 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/wandb-summary.json
+2023-02-11 20:20:13,974 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-11 20:20:15,325 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 8
+2023-02-11 20:20:15,325 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: poll_exit
+2023-02-11 20:20:15,326 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:15,326 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 8
+2023-02-11 20:20:15,326 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:15,327 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-02-11 20:20:15,338 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 9
+2023-02-11 20:20:15,339 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:15,339 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 9
+2023-02-11 20:20:15,340 DEBUG   SenderThread:51758 [sender.py:send():336] send: artifact
+2023-02-11 20:20:15,768 INFO    Thread-13 :51758 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/output.log
+2023-02-11 20:20:17,553 INFO    wandb-upload_1:51758 [upload_job.py:push():93] Skipped uploading /Users/thangchu/Library/Application Support/wandb/artifacts/staging/tmpodbuh5zr
+2023-02-11 20:20:17,972 INFO    wandb-upload_0:51758 [upload_job.py:push():96] Uploaded file /Users/thangchu/Library/Application Support/wandb/artifacts/staging/tmpn3fyw7or
+2023-02-11 20:20:18,990 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-11 20:20:19,667 INFO    SenderThread:51758 [sender.py:send_artifact():1417] sent artifact job-https___github.com_chuducthang77_tutorial.git_main.py - {'id': 'QXJ0aWZhY3Q6MzYzMzA0MzYz', 'digest': 'e28f7cbdd7b33eb2cb17dc09822c5622', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUyNjgzMDA0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzYzMjM1MjYx', 'versionIndex': 0}}, 'version': 'latest'}
+2023-02-11 20:20:19,668 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:19,668 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-02-11 20:20:19,668 INFO    SenderThread:51758 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-11 20:20:19,779 INFO    SenderThread:51758 [dir_watcher.py:finish():392] scan: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files
+2023-02-11 20:20:19,780 INFO    SenderThread:51758 [dir_watcher.py:finish():406] scan save: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/requirements.txt requirements.txt
+2023-02-11 20:20:19,780 INFO    SenderThread:51758 [dir_watcher.py:finish():406] scan save: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/output.log output.log
+2023-02-11 20:20:19,785 INFO    SenderThread:51758 [dir_watcher.py:finish():406] scan save: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/config.yaml config.yaml
+2023-02-11 20:20:19,786 INFO    SenderThread:51758 [dir_watcher.py:finish():406] scan save: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/wandb-summary.json wandb-summary.json
+2023-02-11 20:20:19,793 INFO    SenderThread:51758 [dir_watcher.py:finish():406] scan save: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/wandb-metadata.json wandb-metadata.json
+2023-02-11 20:20:19,793 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 10
+2023-02-11 20:20:19,794 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:19,795 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 10
+2023-02-11 20:20:19,799 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:19,799 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-02-11 20:20:19,799 INFO    SenderThread:51758 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-11 20:20:20,803 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: status_report
+2023-02-11 20:20:20,970 INFO    wandb-upload_1:51758 [upload_job.py:push():138] Uploaded file /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/requirements.txt
+2023-02-11 20:20:21,376 INFO    wandb-upload_0:51758 [upload_job.py:push():138] Uploaded file /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/output.log
+2023-02-11 20:20:21,392 INFO    wandb-upload_3:51758 [upload_job.py:push():138] Uploaded file /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/wandb-summary.json
+2023-02-11 20:20:21,393 INFO    wandb-upload_2:51758 [upload_job.py:push():138] Uploaded file /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/files/config.yaml
+2023-02-11 20:20:21,597 INFO    Thread-12 :51758 [sender.py:transition_state():587] send defer: 11
+2023-02-11 20:20:21,598 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:21,598 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 11
+2023-02-11 20:20:21,599 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:21,599 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-02-11 20:20:21,599 INFO    SenderThread:51758 [file_pusher.py:join():167] waiting for file pusher
+2023-02-11 20:20:21,599 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 12
+2023-02-11 20:20:21,600 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:21,600 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 12
+2023-02-11 20:20:21,600 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:21,601 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-02-11 20:20:21,877 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 13
+2023-02-11 20:20:21,877 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:21,877 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 13
+2023-02-11 20:20:21,878 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:21,878 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-02-11 20:20:21,878 INFO    SenderThread:51758 [sender.py:transition_state():587] send defer: 14
+2023-02-11 20:20:21,879 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: defer
+2023-02-11 20:20:21,879 INFO    HandlerThread:51758 [handler.py:handle_request_defer():170] handle defer: 14
+2023-02-11 20:20:21,880 DEBUG   SenderThread:51758 [sender.py:send():336] send: final
+2023-02-11 20:20:21,881 DEBUG   SenderThread:51758 [sender.py:send():336] send: footer
+2023-02-11 20:20:21,882 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: defer
+2023-02-11 20:20:21,882 INFO    SenderThread:51758 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-02-11 20:20:21,883 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-11 20:20:21,883 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: poll_exit
+2023-02-11 20:20:21,884 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: server_info
+2023-02-11 20:20:21,884 DEBUG   SenderThread:51758 [sender.py:send_request():363] send_request: server_info
+2023-02-11 20:20:21,886 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: get_summary
+2023-02-11 20:20:21,887 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: sampled_history
+2023-02-11 20:20:22,096 INFO    MainThread:51758 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-11 20:20:22,096 INFO    MainThread:51758 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-11 20:20:22,096 INFO    MainThread:51758 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-02-11 20:20:22,097 DEBUG   HandlerThread:51758 [handler.py:handle_request():144] handle_request: shutdown
+2023-02-11 20:20:22,097 INFO    HandlerThread:51758 [handler.py:finish():841] shutting down handler
+2023-02-11 20:20:22,889 INFO    WriterThread:51758 [datastore.py:close():299] close: /Users/thangchu/tutorial/wandb/run-20230211_202002-mtahdhf2/run-mtahdhf2.wandb
+2023-02-11 20:20:23,100 INFO    SenderThread:51758 [sender.py:finish():1493] shutting down sender
+2023-02-11 20:20:23,101 INFO    SenderThread:51758 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-11 20:20:23,101 INFO    SenderThread:51758 [file_pusher.py:join():167] waiting for file pusher

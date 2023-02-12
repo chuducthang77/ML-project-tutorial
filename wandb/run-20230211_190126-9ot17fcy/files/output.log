@@ -1,0 +1,33 @@
+
+[34m[1mwandb[39m[22m: logging graph, to disable use `wandb.watch(log_graph=False)`
+Epoch [1/5], Step [100/600], Loss: 0.3831
+Epoch [1/5], Step [200/600], Loss: 0.3509
+Epoch [1/5], Step [300/600], Loss: 0.2259
+Epoch [1/5], Step [400/600], Loss: 0.1933
+Epoch [1/5], Step [500/600], Loss: 0.2104
+Epoch [1/5], Step [600/600], Loss: 0.0826
+Epoch [2/5], Step [100/600], Loss: 0.2528
+Epoch [2/5], Step [200/600], Loss: 0.0917
+Epoch [2/5], Step [300/600], Loss: 0.0766
+Epoch [2/5], Step [400/600], Loss: 0.1245
+Epoch [2/5], Step [500/600], Loss: 0.0656
+Epoch [2/5], Step [600/600], Loss: 0.0406
+Epoch [3/5], Step [100/600], Loss: 0.0721
+Epoch [3/5], Step [200/600], Loss: 0.0859
+Epoch [3/5], Step [300/600], Loss: 0.0552
+Epoch [3/5], Step [400/600], Loss: 0.1331
+Epoch [3/5], Step [500/600], Loss: 0.0196
+Epoch [3/5], Step [600/600], Loss: 0.0233
+Epoch [4/5], Step [100/600], Loss: 0.0622
+Epoch [4/5], Step [200/600], Loss: 0.1026
+Epoch [4/5], Step [300/600], Loss: 0.0926
+Epoch [4/5], Step [400/600], Loss: 0.0492
+Epoch [4/5], Step [500/600], Loss: 0.0201
+Epoch [4/5], Step [600/600], Loss: 0.0625
+Epoch [5/5], Step [100/600], Loss: 0.0371
+Epoch [5/5], Step [200/600], Loss: 0.0135
+Epoch [5/5], Step [300/600], Loss: 0.0728
+Epoch [5/5], Step [400/600], Loss: 0.0463
+Epoch [5/5], Step [500/600], Loss: 0.0132
+Epoch [5/5], Step [600/600], Loss: 0.0167
+Accuracy of the network on the 10000 test images: 98.09 %

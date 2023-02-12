@@ -1,0 +1,37 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.5",
+    "heartbeatAt": "2023-02-12T02:01:27.106121",
+    "startedAt": "2023-02-12T02:01:26.441554",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/thangchu/tutorial/main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/chuducthang77/tutorial.git",
+        "commit": "62c21419ff3385e3bdf6f7ff4e015afcb5044d69"
+    },
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 233.46913528442383,
+        "used": 8.329620361328125
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

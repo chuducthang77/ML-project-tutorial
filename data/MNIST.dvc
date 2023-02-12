@@ -1,5 +1,5 @@
 outs:
-- md5: 155f2a1175f66b39190402d2a09a12fb.dir
-  size: 133089540
-  nfiles: 16
+- md5: 563f931b5aa3d66aaee35ca9ea59ff3e.dir
+  size: 66544770
+  nfiles: 8
   path: MNIST

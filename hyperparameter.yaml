@@ -1,0 +1,16 @@
+program: main.py
+method: grid
+metric:
+  name: Test/Accuracy
+  goal: maximize
+parameters:
+  learning_rate:
+    values:
+      - 0.1
+      - 0.01
+      - 0.001
+  batch_size:
+    values:
+      - 32
+      - 64
+      - 100
